@@ -17,11 +17,6 @@ public class MainController {
 	    static {
 	        persons.add(new Person("Bill", "Gates"));
 	        persons.add(new Person("Steve", "Jobs"));
-	        persons.add(new Person("Steve", "Jobs"));
-	        persons.add(new Person("Steve", "Jobs"));
-	        persons.add(new Person("Steve", "Jobs"));
-	        persons.add(new Person("Steve", "Jobs"));
-	        persons.add(new Person("Steve", "Jobs"));
 	    }
 	 
 	    @RequestMapping(value = { "/", "/index" }, method = RequestMethod.GET)
